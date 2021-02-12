@@ -5,11 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "dockerize": "docker build -t index-clinic . && docker-compose up"
   },
   "dependencies": {
+    "antd": "^4.12.3",
+    "bootstrap": "^4.6.0",
     "next": "10.0.6",
+    "next-iron-session": "^4.1.11",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "17.0.1",
+    "react-toastify": "^7.0.3"
   }
 }
